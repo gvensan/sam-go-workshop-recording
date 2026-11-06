@@ -1,0 +1,21 @@
+# The recording Chrome profile: signed into GitHub and holds cookies/session
+# credentials (and is ~850MB). Never commit. Recreating it means redoing the
+# manual sign-ins and cookie-banner dismissals (see README).
+chrome-profile/
+
+# Generated video outputs (~300MB+): chapters, the stitched full video,
+# narration plan, title cards. Rebuilt by the pipeline; the narration TTS
+# cache lives outside the repo in ~/.cache/sam-workshop-tour/.
+capture/out/
+
+# Probe/restage screenshots from capture/tools/
+capture/tools/shots/
+
+# Dependencies
+node_modules/
+
+# Local session state and logs
+.claude/scheduled_tasks.lock
+.claude/settings.local.json
+*.log
+.DS_Store

@@ -1,0 +1,13 @@
+{
+  "name": "sam-workshop-capture",
+  "private": true,
+  "type": "module",
+  "description": "Recording pipeline for the SAM Go workshop walkthrough video (YouTube)",
+  "scripts": {
+    "narrate": "node narrate.mjs",
+    "assemble": "node assemble.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0"
+  }
+}

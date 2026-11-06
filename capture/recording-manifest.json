@@ -1,0 +1,29 @@
+{
+  "workshop": {
+    "repo": "SolaceDev/solace-developer-workshops",
+    "branch": "sam-go",
+    "recordedSha": "432a3333f367b3b86a78ae87e5c73b0fd6dc0a19",
+    "recordedAt": "2026-11-05"
+  },
+  "note": "sources are path prefixes in the workshop repo that each chapter's video depicts or depends on. countSensitive chapters speak the literal section count ('thirteen sections') in their narration: adding, removing, or renumbering sections re-voices them (ElevenLabs quota). After re-recording a chapter, update recordedSha/recordedAt (they apply to the whole set, so re-record every AFFECTED chapter before bumping).",
+  "globalSources": ["workshop-sections.json"],
+  "chapters": [
+    { "nn": "00", "id": "welcome", "sources": ["README.md"], "countSensitive": true },
+    { "nn": "01", "id": "the-deck", "sources": ["presentation/"], "countSensitive": false },
+    { "nn": "02", "id": "create-codespace", "sources": [".devcontainer/", "guides/01_Getting_Started.md"], "countSensitive": true },
+    { "nn": "03", "id": "tracker", "sources": ["guides/01_Getting_Started.md"], "countSensitive": true },
+    { "nn": "04", "id": "use-case", "sources": ["guides/01_Usecase.md"], "countSensitive": true },
+    { "nn": "05", "id": "launch-sam", "sources": ["guides/02_Handson_launch_agent_mesh.md"], "countSensitive": false },
+    { "nn": "06", "id": "adlc", "sources": ["guides/03_ADLC.md"], "countSensitive": true },
+    { "nn": "07", "id": "what-is-sam", "sources": ["guides/04_Solace_Agent_Mesh.md"], "countSensitive": true },
+    { "nn": "08", "id": "declarative-cli", "sources": ["guides/05_Declarative_SAM_CLI.md"], "countSensitive": true },
+    { "nn": "09", "id": "quick-build", "sources": ["guides/06_Handson_builtin_tools.md"], "countSensitive": false },
+    { "nn": "10", "id": "go-toolset", "sources": ["guides/07_Handson_custom_tools.md", "sample_configuration/toolsets/"], "countSensitive": true },
+    { "nn": "11", "id": "connectors", "sources": ["guides/08_Handson_connectors.md", "sample_configuration/connectors/"], "countSensitive": false },
+    { "nn": "12", "id": "travel-agents", "sources": ["guides/09_Handson_agents.md", "sample_configuration/agents/", "sample_configuration/manifests/"], "countSensitive": false },
+    { "nn": "13", "id": "a2a-proxy", "sources": ["guides/10_Handson_a2a_proxy.md"], "countSensitive": false },
+    { "nn": "14", "id": "run-the-system", "sources": ["guides/11_Handson_run_the_system.md"], "countSensitive": false },
+    { "nn": "15", "id": "workflows", "sources": ["guides/12_Handson_workflows.md", "sample_configuration/workflows/", "sample_configuration/manifests/"], "countSensitive": true },
+    { "nn": "16", "id": "wrap-up", "sources": ["README.md"], "countSensitive": true }
+  ]
+}
